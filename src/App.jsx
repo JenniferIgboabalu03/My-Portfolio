@@ -1,22 +1,19 @@
 import { Home } from './components/home'
-import { About } from "./components/about"
-import { Projects } from "./components/projects"
-import { Contact } from "./components/contact"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion' 
+import { Navbar } from './components/navbar'
+import { Certificate } from './components/certificate'
 
-function App() {
-  
+function App() {  
   return (
     <AnimatePresence>
       <Router>
         <div>
-            <Routes>
-              <Route path="/" element={ <Home /> }  />
-              <Route path="/about" element={ <About /> }  />
-              <Route path="/projects" element={ <Projects /> }  />
-              <Route path="/contact" element={ <Contact /> }  />
-            </Routes>    
+          <Navbar />
+          <Routes>
+            <Route path="/" element={ <Home /> }  />  
+            <Route path='/certificate'  element={ <Certificate/> }/>    
+          </Routes>    
         </div>
       </Router> 
     </AnimatePresence>    
