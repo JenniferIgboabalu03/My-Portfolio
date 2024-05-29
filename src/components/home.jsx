@@ -95,7 +95,7 @@ export const Home = () => {
                             </div>                            
                         </Link>
 
-                        <Link to="https://my-portfolio-navy-chi-51.vercel.app/">
+                        <Link to="https://my-portfolio-nine-rho-24.vercel.app/">
                             <div className="project cursor-pointer portfolio h-80 md:h-72 rounded-2xl box-shadow">
                                 <div className="w-full h-full">
                                     
