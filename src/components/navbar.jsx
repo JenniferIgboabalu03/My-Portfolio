@@ -4,6 +4,7 @@ import { IoCloseOutline } from "react-icons/io5";
 import { useState} from "react";
 import { CiLinkedin } from "react-icons/ci";
 import { RiGithubLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => { 
 
@@ -77,8 +78,8 @@ export const Navbar = () => {
 
                                 <p className="text-base my-6 font-semibold">FIND ME WITH:</p>
                                 <div className="flex items-center w-full h-fit md:mt-4 space-x-5">                                
-                                    <div className="w-fit h-fit box-shadow rounded-lg cursor-pointer font-semibold bg-[#e1e1e166] hover:bg-[#d5d5e0] p-3 hover:transition-all hover:scale-90 duration-500 hover:text-[#4d26b3]"><RiGithubLine size={25}/></div>
-                                    <div className="w-fit h-fit box-shadow rounded-lg cursor-pointer font-semibold bg-[#e1e1e166] hover:bg-[#d5d5e0] p-3 hover:transition-all hover:scale-90 duration-500 hover:text-[#4d26b3]"><CiLinkedin size={25} /></div>
+                                    <Link to="https://github.com/JenniferIgboabalu03"><div className="w-fit h-fit box-shadow rounded-lg cursor-pointer font-semibold bg-[#e1e1e166] hover:bg-[#d5d5e0] p-3 hover:transition-all hover:scale-90 duration-500 hover:text-[#4d26b3]"><RiGithubLine size={25}/></div></Link>
+                                    <Link to="https://www.linkedin.com/in/jenny-i-239397205/"><div className="w-fit h-fit box-shadow rounded-lg cursor-pointer font-semibold bg-[#e1e1e166] hover:bg-[#d5d5e0] p-3 hover:transition-all hover:scale-90 duration-500 hover:text-[#4d26b3]"><CiLinkedin size={25} /></div></Link>
                                 </div>
                                 
                             </div>                        

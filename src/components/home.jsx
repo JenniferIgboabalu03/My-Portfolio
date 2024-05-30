@@ -27,7 +27,7 @@ export const Home = () => {
                     <h1 className="font-bold text-4xl sm:text-5xl md:text-7xl">JENNIFER IGBOABALU</h1>  
                     <ReactTyped className="text-lg mt-3 sm:text-2xl md:text-4xl font-bold text-[#4d26b3]"
                     strings={["Frontend Web Developer"]} typeSpeed={60} backSpeed={90} loop />
-                    <Link to="/certificate">
+                    <Link to="/certificate" target="_parent">
                         <div className="flex items-center space-x-2 cursor-pointer">
                             <h1 className="text-lg sm:text-2xl font-semibold">VIEW MY CERTIFICATE</h1> <div className="border-[#2b2b2b] border p-1 sm:p-2 rounded-full hover:bg-black hover:text-white hover:border-[#d5d5e0] hover:duration-500 hover:ease-in-out hover:transition-all hover:scale-110"><GoArrowRight className="size-5 sm:size-8 "/></div>
                         </div>
@@ -37,7 +37,7 @@ export const Home = () => {
             <div className="2xl:max-w-screen-2xl 2xl:mx-auto w-full h-full px-5 sm:px-7 overflow-hidden"id="about">
                 <div className="my-20 md:my-24 space-y-9 md:space-y-11 lg:space-y-0 lg:h-[550px] xl:h-[600px] lg:flex">
                     <div className="hidden lg:block lg:w-[40%] w-full rounded-xl h-[400px] sm:h-[600px] md:h-[820px] lg:h-full">
-                        {/* <img src={ img1 } alt="image" className="w-full h-full rounded-xl object-cover" /> */}
+                        <img src={ img1 } alt="image" className="w-full h-full rounded-xl object-cover" />
                     </div>
 
                     <div className="lg:w-[60%] lg:pt-10 xl:pt-20 lg:px-10 xl:px-14">
@@ -49,9 +49,9 @@ export const Home = () => {
                             <p>Fully committed to the philosophy of life-long learning, I'm a frontend web developer with a passion for Html, Css, JavaScript, React and all things web development. The unique combination of creativity, logic, technology and never running out of new things to discover, drives my excitement and passion for web development and computer science in general.</p>
                             <p>When I'm not at my computer I like to spend my time learning new skills, working out and watching movies.</p>
                         </div> 
-                        <div className="py-4 mt-8 md:mt-9 box-shadow md:py-5 px-9 hover:transition-all hover:scale-105 duration-700 font-semibold w-fit text-sm rounded-lg cursor-pointer bg-[#a7abbd66] text-[#4d26b3] hover:text-black">
+                        {/* <div className="py-4 mt-8 md:mt-9 box-shadow md:py-5 px-9 hover:transition-all hover:scale-105 duration-700 font-semibold w-fit text-sm rounded-lg cursor-pointer bg-[#a7abbd66] text-[#4d26b3] hover:text-black">
                             <p>DOWNLOAD MY CV</p>
-                        </div>                                             
+                        </div>                                              */}
                     </div>
                 </div>
 
@@ -62,7 +62,7 @@ export const Home = () => {
                     </div> 
                     
                     <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8 w-full h-full mt-10">
-                        <Link>
+                        <Link to="https://eden-on-earth.vercel.app/">
                             <div className="project cursor-pointer eoe h-80 md:h-72 rounded-2xl box-shadow">
                                 <div className="w-full h-full">
                                     
@@ -74,12 +74,11 @@ export const Home = () => {
                                         <p className="text-xs rounded-full py-1 px-3 bg-[#d5d5e0]">React</p>
                                         <p className="text-xs rounded-full py-1 px-3 bg-[#d5d5e0]">Css</p>
                                         <p className="text-xs rounded-full py-1 px-3 bg-[#d5d5e0]">Tailwind css</p>
-                                        <p className="text-xs rounded-full py-1 px-3 bg-[#d5d5e0]">View website</p>
                                     </div>
                                 </div>
                             </div>                            
                         </Link>
-                        <Link>
+                        <Link to="https://mountain-dreamers-lodge.vercel.app/">
                             <div className="project cursor-pointer mdl h-80 md:h-72 rounded-2xl box-shadow">
                                 <div className="w-full h-full">
                                     
@@ -91,13 +90,12 @@ export const Home = () => {
                                         <p className="text-xs rounded-full py-1 px-3 bg-[#d5d5e0]">React</p>
                                         <p className="text-xs rounded-full py-1 px-3 bg-[#d5d5e0]">Css</p>
                                         <p className="text-xs rounded-full py-1 px-3 bg-[#d5d5e0]">Tailwind css</p>
-                                        <p className="text-xs rounded-full py-1 px-3 bg-[#d5d5e0]">View website</p>
                                     </div>
                                 </div>
                             </div>                            
                         </Link>
 
-                        <Link>
+                        <Link to="https://my-portfolio-navy-chi-51.vercel.app/">
                             <div className="project cursor-pointer portfolio h-80 md:h-72 rounded-2xl box-shadow">
                                 <div className="w-full h-full">
                                     
@@ -109,13 +107,12 @@ export const Home = () => {
                                         <p className="text-xs rounded-full py-1 px-3 bg-[#d5d5e0]">React</p>
                                         <p className="text-xs rounded-full py-1 px-3 bg-[#d5d5e0]">Css</p>
                                         <p className="text-xs rounded-full py-1 px-3 bg-[#d5d5e0]">Tailwind css</p>
-                                        <p className="text-xs rounded-full py-1 px-3 bg-[#d5d5e0]">View website</p>
                                     </div>
                                 </div>
                             </div>                            
                         </Link>
 
-                        <Link>
+                        <Link to="https://empire-storm.vercel.app/">
                             <div className="project cursor-pointer empire-storm h-80 md:h-72 rounded-2xl box-shadow">
                                 <div className="w-full h-full">
                                     
@@ -127,7 +124,6 @@ export const Home = () => {
                                         <p className="text-xs rounded-full py-1 px-3 bg-[#d5d5e0]">Html</p>
                                         <p className="text-xs rounded-full py-1 px-3 bg-[#d5d5e0]">Css</p>
                                         <p className="text-xs rounded-full py-1 px-3 bg-[#d5d5e0]">Api</p>
-                                        <p className="text-xs rounded-full py-1 px-3 bg-[#d5d5e0]">View website</p>
                                     </div>
                                 </div>
                             </div>                            
@@ -185,8 +181,8 @@ export const Home = () => {
                             <p className="font-semibold text-sm md:text-base">Email: <span className="font-sans text-base md:text-lg">jennyigboabalu@gmail.com</span></p> 
 
                             <div className="flex items-center w-full h-fit mt-5 md:mt-4 space-x-7">
-                                <div className="w-fit h-fit box-shadow rounded-lg cursor-pointer font-semibold bg-[#e1e1e166] hover:bg-[#d5d5e0] p-4 hover:transition-all hover:scale-90 duration-500 hover:text-[#4d26b3]"><RiGithubLine size={25}/></div>
-                                <div className="w-fit h-fit box-shadow rounded-lg cursor-pointer font-semibold bg-[#e1e1e166] hover:bg-[#d5d5e0] p-4 hover:transition-all hover:scale-90 duration-500 hover:text-[#4d26b3]"><CiLinkedin size={25} /></div>
+                                <Link to="https://github.com/JenniferIgboabalu03"><div className="w-fit h-fit box-shadow rounded-lg cursor-pointer font-semibold bg-[#e1e1e166] hover:bg-[#d5d5e0] p-4 hover:transition-all hover:scale-90 duration-500 hover:text-[#4d26b3]"><RiGithubLine size={25}/></div> </Link>
+                                <Link to="https://www.linkedin.com/in/jenny-i-239397205/"><div className="w-fit h-fit box-shadow rounded-lg cursor-pointer font-semibold bg-[#e1e1e166] hover:bg-[#d5d5e0] p-4 hover:transition-all hover:scale-90 duration-500 hover:text-[#4d26b3]"><CiLinkedin size={25} /></div></Link>
                             </div>
                         </div>  
 
