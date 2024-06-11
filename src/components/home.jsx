@@ -10,6 +10,7 @@ import js from '../assets/javascript.png'
 import react from '../assets/react.png'
 import tailwind from '../assets/tailwind.png'
 import github from '../assets/github.png'
+import jest from '../assets/jest.png'
 import { CiLinkedin } from "react-icons/ci";
 import { RiGithubLine } from "react-icons/ri";
 
@@ -35,23 +36,15 @@ export const Home = () => {
                 </div> 
            </motion.div>
             <div className="2xl:max-w-screen-2xl 2xl:mx-auto w-full h-full px-5 sm:px-7 overflow-hidden"id="about">
-                <div className="my-20 md:my-24 space-y-9 md:space-y-11 lg:space-y-0 lg:h-[550px] xl:h-[600px] lg:flex">
-                    <div className="hidden lg:block lg:w-[40%] w-full rounded-xl h-[400px] sm:h-[600px] md:h-[820px] lg:h-full">
-                        <img src={ img1 } alt="image" className="w-full h-full rounded-xl object-cover" />
-                    </div>
-
-                    <div className="lg:w-[60%] lg:pt-10 xl:pt-20 lg:px-10 xl:px-14">
-                        <div className="text-center sm:text-left space-y-4 w-full">
+                <div className="my-20 md:my-24">
+                    <div className="lg:w-[90%] mx-auto lg:pt-10 xl:pt-20 ">
+                        <div className="text-center space-y-4 w-full">
                             <p className="text-base md:text-lg text-[#4d26b3] font-semibold letter-space">A LITLE BIT ABOUT MYSELF</p>                               
                             <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold">About Me</h1>
                         </div> 
                         <div className="mt-6 md:mt-9 space-y-2 text-base md:text-lg w-full">
-                            <p>Fully committed to the philosophy of life-long learning, I'm a frontend web developer with a passion for Html, Css, JavaScript, React and all things web development. The unique combination of creativity, logic, technology and never running out of new things to discover, drives my excitement and passion for web development and computer science in general.</p>
-                            <p>When I'm not at my computer I like to spend my time learning new skills, working out and watching movies.</p>
-                        </div> 
-                        {/* <div className="py-4 mt-8 md:mt-9 box-shadow md:py-5 px-9 hover:transition-all hover:scale-105 duration-700 font-semibold w-fit text-sm rounded-lg cursor-pointer bg-[#a7abbd66] text-[#4d26b3] hover:text-black">
-                            <p>DOWNLOAD MY CV</p>
-                        </div>                                              */}
+                            <p>Fully committed to the philosophy of life-long learning, I'm a frontend web developer with a passion for Html, Css, JavaScript, React and all things web development. The unique combination of creativity, logic, technology and never running out of new things to discover, drives my excitement and passion for web development and computer science in general. When I'm not at my computer I like to spend my time learning new skills, working out and watching movies.</p>
+                        </div>                         
                     </div>
                 </div>
 
@@ -154,13 +147,17 @@ export const Home = () => {
                             <div className="h-16 w-16 mx-auto my-7"><img src={ react } alt="" className="h-full w-full" /> </div>                  
                             <p className="text-base md:text-lg font-semibold text-center border-t border-black py-3">React</p>
                         </div>
-                        <div className="w-[70%] lg:col-start-2 lg:col-span-1 mx-auto sm:mx-0 sm:w-full h-full rounded-xl box-shadow bg-[#e1e1e166] hover:bg-[#d5d5e0]">
+                        <div className="w-[70%] mx-auto sm:mx-0 sm:w-full h-full rounded-xl box-shadow bg-[#e1e1e166] hover:bg-[#d5d5e0]">
                             <div className="h-16 w-16 mx-auto my-7"><img src={ tailwind } alt="" className="h-full w-full" /> </div>                  
                             <p className="text-base md:text-lg font-semibold text-center border-t border-black py-3">Tailwind</p>
                         </div>
                         <div className="w-[70%] mx-auto sm:mx-0 sm:w-full h-full rounded-xl box-shadow bg-[#e1e1e166] hover:bg-[#d5d5e0]">
                             <div className="h-16 w-16 mx-auto my-7"><img src={ github } alt="" className="h-full w-full" /> </div>                  
                             <p className="text-base md:text-lg font-semibold text-center border-t border-black py-3">Github</p>
+                        </div>
+                        <div className="w-[70%] mx-auto sm:mx-0 sm:w-full h-full rounded-xl box-shadow bg-[#e1e1e166] hover:bg-[#d5d5e0]">
+                            <div className="h-16 w-16 mx-auto my-7"><img src={ jest } alt="" className="h-full w-full" /> </div>                  
+                            <p className="text-base md:text-lg font-semibold text-center border-t border-black py-3">Jest</p>
                         </div>
                     </div>
                 </div>
