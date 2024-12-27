@@ -154,11 +154,7 @@ export const Home = () => {
                         <div className="w-[70%] mx-auto sm:mx-0 sm:w-full h-full rounded-xl box-shadow bg-[#e1e1e166] hover:bg-[#d5d5e0]">
                             <div className="h-16 w-16 mx-auto my-7"><img src={ github } alt="" className="h-full w-full" /> </div>                  
                             <p className="text-base md:text-lg font-semibold text-center border-t border-black py-3">Github</p>
-                        </div>
-                        <div className="w-[70%] mx-auto sm:mx-0 sm:w-full h-full rounded-xl box-shadow bg-[#e1e1e166] hover:bg-[#d5d5e0]">
-                            <div className="h-16 w-16 mx-auto my-7"><img src={ jest } alt="" className="h-full w-full" /> </div>                  
-                            <p className="text-base md:text-lg font-semibold text-center border-t border-black py-3">Jest</p>
-                        </div>
+                        </div>                        
                     </div>
                 </div>
 
